@@ -1,0 +1,68 @@
+h2 {
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    font-size: 50px;
+  }
+
+  body {
+    background-color: #FFA726; /* Orange 400 */
+    color: #FFFFFF; /* White */
+    font-family: Georgia, serif;
+  }
+
+  #create-task button {
+    background-color: #4CAF50; /* Green 500 */
+    color: #FFFFFF; /* White */
+    border: none;
+    padding: 3px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  #todo-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    background-color: #FFA726; /* Orange 400 */
+  }
+  
+  #todo-list .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #FFCC80; /* Orange 200 */
+  }
+  
+  #todo-list .row p {
+    margin: 0;
+    color: #FFFFFF; /* White */
+  }
+  
+  #todo-list .row button {
+    margin-left: 10px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    color: #FFFFFF; /* White */
+  }
+  
+  #todo-list .row .delete {
+    background-color: #F44336; /* Red 500 */
+  }
+  
+  #todo-list .row .change-status {
+    background-color: #4CAF50; /* Green 500 */
+  }
+  
+  #todo-list .row .set-active {
+    margin-left: 10px;
+  }
+
