@@ -12,7 +12,7 @@ h2 {
 
   #create-task button {
     background-color: #4CAF50; 
-    color: #FFFFFF; 
+    color: #000000; 
     border: none;
     padding: 3px 10px;
     text-align: center;
@@ -22,6 +22,10 @@ h2 {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 4px;
+  }
+
+  #create-task {
+    color: #000000;
   }
 
   #todo-list {
